@@ -12,7 +12,9 @@
 name: release
 on:
   workflow_dispatch:
-    inputs: none
+    inputs:
+      reason:
+        description: 'The reason for manually running'
   push:
     tags:
       - 'v*'
