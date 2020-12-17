@@ -11,8 +11,7 @@
 #
 name: release
 on:
-  - workflow_dispatch
-  - push:
+  push:
     tags:
       - 'v*'
 jobs:
