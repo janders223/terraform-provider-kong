@@ -17,6 +17,7 @@
       buildInputs = with pkgs; [
         gitAndTools.gitFull
         go
+        goreleaser
         vim
       ];
     };
