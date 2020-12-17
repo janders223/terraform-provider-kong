@@ -16,6 +16,7 @@
     devShell = pkgs.mkShell {
       buildInputs = with pkgs; [
         gitAndTools.gitFull
+        gnupg
         go
         goreleaser
         vim
